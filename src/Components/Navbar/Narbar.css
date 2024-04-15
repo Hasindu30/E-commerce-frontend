@@ -1,0 +1,27 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    box-shadow: 0 1px 3px -2px;
+}
+.navbar logo{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    width: 10px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    color: #626262;
+    cursor: pointer;
+}
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
