@@ -1,20 +1,24 @@
 .navbar{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+   
     box-shadow: 0 1px 3px -2px;
+    align-items: center;
+    padding-right: 50px;
 }
 .logo{
-    display: flex;
-    align-items: center;
+    display:flex;
     gap: 10px;
     cursor: pointer;
+    width: 40px;
+    height: 40px;
+    padding-left: 20px;
 }
 .nav-menu{
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 50px;
+    gap: 60px;
     color: #626262;
     cursor: pointer;
 }
@@ -23,7 +27,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 3px;
+    gap: 5px;
     cursor: pointer;
 
 }
@@ -37,16 +41,19 @@
 .nav-login-cart{
     display: flex;
     align-items: center;
-    gap: 30px;
-    width: 10px;
-    height: 10px;
+    gap: 40px;
+    
     
 }
+.nav-login-cart img{
+    width: 40px;
+    height: 40px;
+}
 .nav-login-cart button{
-    width: 120px;
-    height: 30px;
+    width: 90px;
+    height: 38px;
     outline: none;
-    border: qpx solid #7a7a7a;
+    border: 1px solid #7a7a7a;
     border-radius: 75px;
     color: #515151;
     font-size: 20px;
