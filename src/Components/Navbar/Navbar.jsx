@@ -7,11 +7,11 @@ import cart from '../Assets/cart.png'
 const Navbar = () => {
   return (
     <div className='navbar'>
-      <div className="logo">
+      <div className='logo'>
         <img src={logo} alt="" />
       </div>
       <ul className='nav-menu'>
-        <li>Shop</li>
+        <li>Shop<hr/></li>
         <li>Men</li>
         <li>Women</li>
         <li>Kids</li>
@@ -19,6 +19,7 @@ const Navbar = () => {
       <div className="nav-login-cart">
         <button>Login</button>
         <img src={cart} alt="" />
+        <div className="nav-cart-count">0</div>
       </div>
     </div>
   )
