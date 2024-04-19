@@ -28,6 +28,30 @@ const ProductDisplay = (props) => {
             <img src={start_dull_icon} alt="" />
             <p>(122)</p>
         </div>
+        <div className="productdisplay-right-prices">
+            <div className="productdisplay-right-price-old">
+                ${product.old_price}
+            </div>
+            <div className="productdisplay-right-price-new">
+                $product.new_price
+            </div>
+            <div className="productdisplay-right-description">
+            A t-shirt is a versatile and essential piece of clothing characterized by its short sleeves, crew neck, and typically cotton fabric. T-shirts are one of the most popular and widely worn garments worldwide, 
+            known for their comfort, simplicity, and variety of styles.
+            </div>
+            <div className="producrdisplay-right-size">
+                <h1>Select Size</h1>
+                <div className="productdisplay-right-size">
+                    <div className="div">S</div>
+                    <div className="div">M</div>
+                    <div className="div">L</div>
+                    <div className="div">XL</div>
+                    <div className="div">XXL</div>
+                </div>
+
+            </div>
+            <button>ADD TO CART</button>
+        </div>
       </div>
     </div>
   )
